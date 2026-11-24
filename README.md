@@ -5,7 +5,7 @@
 Because pure simulation isn't always predictable, AutoSkirt gives you full manual control alongside dynamics—allowing you to easily combine **Maya Muscle simulation with traditional keyframe animation** for the best results.
 
 ## 🎥 Video Walkthrough
-Watch the full step-by-step tutorial and demo on YouTube: [Insert your YouTube link here]
+Watch the full step-by-step tutorial and demo on YouTube: https://youtu.be/aDL0SH53vbA
 
 ## 🚀 Installation & Usage
 
