@@ -15,6 +15,8 @@ Pure simulation is not always predictable or suitable for every animation scenar
 
 The goal is to simplify garment rigging while providing a flexible, artist-friendly animation workflow.
 
+Since the final deformation is driven by a standard joint hierarchy, the resulting animation can be baked and exported through FBX, making AutoSkirt suitable for game engine workflows as well as traditional character animation.
+
 ## Key Features
 
 - Automated garment rigging setup
@@ -26,6 +28,9 @@ The goal is to simplify garment rigging while providing a flexible, artist-frien
 - Support for secondary garment motion
 - Adaptable setup for different garment types
 - Quick access through a custom Maya shelf button
+- Joint-based final deformation
+- Support for animation baking and FBX export
+- Game-engine-friendly rigging workflow
 
 ## Video Demonstration
 
@@ -98,6 +103,22 @@ Use traditional animation controls and keyframes to achieve specific poses, silh
 Combine dynamic behavior with manual animation to balance natural secondary motion with artistic control.
 
 For detailed setup instructions and a complete workflow demonstration, follow the step-by-step video tutorial above.
+
+## Game Engine Workflow
+
+AutoSkirt uses a standard joint hierarchy to drive the final garment deformation, making it suitable for both traditional animation and game engine pipelines.
+
+This makes it possible to:
+
+- Bake the resulting joint animation in Maya.
+- Export the animated skeleton and skinned garment through FBX.
+- Integrate the baked animation into game engines such as Unreal Engine or Unity.
+
+The Maya Muscle simulation itself remains in Maya. Only the resulting baked joint animation needs to be exported.
+
+This approach allows artists to benefit from dynamic garment behavior without requiring a dedicated cloth simulation system in the target game engine.
+
+Always verify the baked animation and FBX export results in your target game engine before production use.
 
 ## Use Cases
 
